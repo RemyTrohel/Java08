@@ -14,7 +14,7 @@ public abstract class Bird {
     public String getName() {  
         return this.name;  
     }  
-  
+
     public void setName(String name) {  
         this.name = name;  
     }  

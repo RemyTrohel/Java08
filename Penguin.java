@@ -18,8 +18,16 @@ public class Penguin extends Bird implements Swim {
         return depths;
     }
 
+    public void setDepths(int depths){
+        this.depths = depths;
+    }
+
     public boolean isSwimming() {
         return swimming;
+    }
+
+    public void setSwimming(boolean swimming){
+        this.swimming = swimming;
     }
 
     /**
