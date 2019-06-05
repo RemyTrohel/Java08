@@ -35,8 +35,13 @@ public class Eagle extends Bird implements Fly{
      */
     @Override
     public void takeOff(){
-        this.flying = true;
-        System.out.println(getName()+" takes off in the sky.");
+        if (!this.flying) {
+            System.out.println(this.getName() + " takes off in the sky.");
+            this.flying = true;
+        }
+        else{
+            System.out.println(this.getName() + " is already flying.");
+        }
     }
 
     /**
